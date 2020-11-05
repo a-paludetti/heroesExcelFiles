@@ -31,7 +31,7 @@ public class ReadExcel {
 
     public static void main(String[] args) {
         try {
-            FileInputStream file = new FileInputStream(new File("/heroes.xlsx"));
+            FileInputStream file = new FileInputStream(new File("heroes.xlsx"));
 
             Workbook workbook = WorkbookFactory.create(file);
             Sheet sheet = workbook.getSheetAt(0);
